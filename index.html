@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <title> Bootstrap Project </title>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary pl-5 fixed-top">
+    <a href="index.html" class="navbar-brand"> OLYMPIA </a>
+    <!-- <span class="navbar-text">Learn and Implement</span> -->
+    <button type="button" class=" navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myMenu">
+      
+	  <ul class="navbar-nav pl-5  custom-nav">
+	  
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+		<li class="nav-item dropdown ">
+			<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">New Buildings</a>
+			<ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#">Excalavators</a></li>
+			  <li><a class="dropdown-item" href="#"> Elevtors</a></li>
+			  <li><a class="dropdown-item" href="#"> Travelators </a></li>
+			  <li><a class="dropdown-item" href="#"> Lifts</a></li>
+			</ul>
+		  </li>
+        <li class="nav-item"><a href="#Services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="clients.html" class="nav-link"> Clients </a></li>
+        <li class="nav-item"><a href="#Team" class="nav-link">Team</a></li>
+        <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+		
+      </ul>
+	  
+
+    </div>
+  </nav> <!-- End Navigation -->
+
+  <!-- Start Header -->
+  <header class="jumbotron back-image" style="background-image: url(images/laptop.jpg);">
+    <div class="text-center container mb-5 " style="margin-top: 110px;">
+      <h1 class="text-uppercase text-primary font-weight-bold">Welcome to the Olympia Group </h1>
+      <p class="font-italic font-weight-bold st"> <h5> We move people and goods, connect vertical and horizontal transportation systems, and enable the shaping of sustainable urban landscapes – now and in the future.</h5></p>
+      <a href="#Contact" class="btn btn-outline-primary  mr-4">Hire Us</a>
+      <a href="" target="_blank" class="btn btn-outline-primary ">Join Us</a>
+    </div>
+  </header> <!-- End Header -->
+
+  <!-- Start our Services -->
+  <div class="container text-center border-bottom mt-4" id="Services"> 
+    <h2>Our Services</h2>
+    <div class="row mt-4">
+      <div class="col-sm-4 mb-4">
+        <a href="#"><i class="fab fa-android fa-10x text-success"></i></a>
+        <h4 class="mt-4">Android Application</h4>
+      </div>
+      <div class="col-sm-4 mb-4">
+        <a href="#"><i class="fas fa-desktop fa-9x text-primary mt-3" ></i></a>
+        <h4 class="mt-4">Web Apps</h4>
+      </div>
+      <div class="col-sm-4 mb-4">
+        <a href="#"><i class="fas fa-database fa-10x text-info"></i></a>
+        <h4 class="mt-4"> Manufacturing </h4>
+      </div>
+    </div>
+  </div> <!-- End Services -->
+
+  <!-- Start   Projects  -->
+  <div class="container pt-5" id="Courses"> 
+    <h2 class="text-center">Our Projects</h2>  
+    <div class="row mt-4">        
+      <div class="col-lg-6 mb-4">     
+        <img src="images/course1.jpeg" alt="" class="img-fluid">
+      </div>  
+
+      <div class="col-lg-6">    
+        <h2 class="text-center"> Projects in India </h2> <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ducimus, modi aut consequatur dolore ut praesentium esse recusandae at amet. Dolorem eius obcaecati ratione, quas laborum consequatur inventore vitae nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos asperiores magnam culpa ullam. Quasi voluptatem eveniet sed velit tempore eaque adipisci magnam recusandae quaerat praesentium illo, animi, sit ratione quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi atque ipsam optio, iusto explicabo odit suscipit delectus quis eum adipisci quo voluptas laboriosam quisquam sit, sint asperiores eius in!</p>
+      </div>  
+    </div>  
+
+    <div class="row mt-4">    
+      <div class="col-lg-6">  
+        <h2 class="text-center"> Worldwide Projects</h2> <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ducimus, modi aut consequatur dolore ut praesentium esse recusandae at amet. Dolorem eius obcaecati ratione, quas laborum consequatur inventore vitae nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos asperiores magnam culpa ullam. Quasi voluptatem eveniet sed velit tempore eaque adipisci magnam recusandae quaerat praesentium illo, animi, sit ratione quo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nisi atque ipsam optio, iusto explicabo odit suscipit delectus quis eum adipisci quo voluptas laboriosam quisquam sit, sint asperiores eius in!</p>
+      </div>  
+
+      <div class="col-lg-6 mb-4">   
+        <img src="images/course2.jpeg" alt="" class="img-fluid">
+      </div>   
+    </div>    
+  </div>  <!-- End   Projects  -->
+
+  <!-- Start Team  -->
+  <div class="jumbotron bg-info" id="Team">   <!-- Start Team Jumbotron -->
+    <div class="container">     <!-- Start Team Container -->
+      <h2 class="text-center text-white">Our Team</h2>    <!-- Team Heading-->
+      <div class="row mt-5">    <!-- Start Team Row-->
+        <div class="col-lg-3 col-sm-6">     <!-- Start Team 1st Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="images/ganesh.jpeg" class="img-fluid h-100" style="border-radius: 100px;">
+              <h4 class="card-title">Ganesh khedekar</h4>
+              <p class="card-text">I am glad that I have a team like you. I am looking forward to the next project! Hi [ Olympia Team ], Thank you so much for providing the much-needed assistance, we needed during that hectic period.</p>
+            </div>
+          </div>
+        </div>    <!-- End Team 1st Column-->
+
+        <div class="col-lg-3 col-sm-6">     <!-- Start Team 2nd Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="images/avtar2.jpeg" class="img-fluid" style="border-radius: 100px;">
+              <h4 class="card-title">Sonam Sharma</h4>
+              <p class="card-text">I am glad that I have a team like you. I am looking forward to the next project! Hi [ Olympia Team ], Thank you so much for providing the much-needed assistance, we needed during that hectic period.</p>
+            </div>
+          </div>
+        </div>      <!-- End Team 2nd Column-->
+
+        <div class="col-lg-3 col-sm-6">       <!-- Start Team 3rd Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="images/avtar3.jpeg" class="img-fluid" style="border-radius: 100px;">
+              <h4 class="card-title">Nitin Jadhav</h4>
+              <p class="card-text">I am glad that I have a team like you. I am looking forward to the next project! Hi [ Olympia Team ], Thank you so much for providing the much-needed assistance, we needed during that hectic period.</p>
+            </div>
+          </div>
+        </div>       <!-- End Team 3rd Column-->
+
+        <div class="col-lg-3 col-sm-6">        <!-- Start Team 4th Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="images/avtar4.jpeg" class="img-fluid" style="border-radius: 100px;">
+              <h4 class="card-title">Jyoti Sinha</h4>
+              <p class="card-text">I am glad that I have a team like you. I am looking forward to the next project! Hi [ Olympia Team ], Thank you so much for providing the much-needed assistance, we needed during that hectic period.</p>
+            </div>
+          </div>
+        </div>     <!-- End Team 4th Column-->
+      </div>    <!-- End Team Row-->
+    </div>  <!-- End Team Container -->
+  </div> <!-- End Team Jumbotron -->
+   
+   
+      <!-- start news feed -->
+      <div class="container-fluid ">
+   <div class="row">
+   
+		<div class="card mb-2  col-12" style="width: 18rem;">
+		  <img src="images/awards.png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<p class="card-text"> <h4> Olympia Global Award</h4> Maharashtra takes First Prize with Winners from Around the World. </p>
+		  </div>
+		</div>
+		
+		<div class="card mb-2  col-12" style="width: 18rem;">
+		  <img src="images/plan.png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<p class="card-text"> <h4> Olympia Plan & Design </h4> Elevator and escalator plan and design in minutes. Our easy-to-use online planning tool that makes it simple to configure your building vertical transportation needs.</p>
+		  </div>
+		</div>
+		<div class="card  col-12" style="width: 18rem;">
+		  <img src="images/excalavator.png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<p class="card-text">  <h4> Olympia New Product </h4>When the elements of nature come together to create a fusion of classic and contemporary, blending seamlessly into one another, the elemental series is born.</p>
+		  </div>
+		</div>
+   
+   </div>
+  </div>
+           <!-- end news feed -->
+		   
+  <!--Start Contact Us-->
+  <div class="container mt-3" id="Contact"> <!--Start Contact Us Container-->
+    <h2 class="text-center mb-4">Contact US</h2>    <!-- Contact Us Heading -->
+    <div class="row">           <!--Start Contact Us Row-->
+      <div class="col-md-8">    <!--Start Contact Us 1st Column-->
+        <form action="#" method="post">
+          <input class="form-control" name="name" placeholder="Name" /><br />
+          <input class="form-control" name="phone" placeholder="Phone" /><br />
+          <input class="form-control" name="email" placeholder="E-mail" /><br />
+          <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
+          <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
+        </form>
+      </div> 
+	  <!-- End Contact Us 1st Column-->
+
+      <div class="col-md-4 text-center">    <!-- Start Contact Us 2nd Column-->
+        <strong>Headquarter:</strong> <br>
+        Olympia Pvt Ltd, <br>
+        Tel-purandar, Pune,  <br>
+         Maharashtra  <br>
+        Phone: 9999888877 <br> 
+        <a href="" target="_blank">www.olympialtd.com</a> <br>
+    
+        <br><br>
+        <strong>Mumbai Branch:</strong> <br>
+        Olympia Pvt Ltd, <br>
+        Sec 5, Bhandup <br>
+        WB - 804002 <br>
+        Phone: 9999888877 <br> 
+        <a href="" target="_blank">www.olympialtd.com</a> <br>
+      </div>    <!-- End Contact Us 2nd Column-->
+    </div>    <!-- End Contact Us Row-->
+  </div>  <!-- End Contact Us Container-->    <!-- End Contact Us -->
+
+
+  <!-- Start Footer-->
+  <footer class="container-fluid bg-primary text-white mt-4" style="border-top: 3px solid black;">
+    <div class="container" >   <!-- Start Footer Container -->
+      <div class="row py-3">    <!-- Start Footer Row -->
+        <div class="col-md-6 ">      <!-- Start Footer 1st Column -->
+          <div>
+            <span>Follow Us: </span>
+            <a href="..." target="_blank"><i class="fab fa-facebook-f px-3"></i></a>
+            <a href="..." target="_blank"><i class="fab fa-twitter pr-3"></i></a>
+            <a href="....." target="_blank"><i class="fab fa-youtube pr-3"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-google-plus-g pr-3"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-rss pr-3"></i></a>
+          </div>
+        </div>    <!-- End Footer 1st Column -->
+
+        <div class="col-md-6 text-right">   <!-- Start Footer 2nd Column -->
+          <small> Designed by <a href="" target="_blank">Omkarkale</a> &copy; 2021. </small>
+        </div>    <!-- End Footer 2nd Column -->
+      </div>    <!-- End Footer Row -->
+    </div>    <!-- End Footer Container -->
+  </footer> <!-- End Footer -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+	
+</body>
+</html>
